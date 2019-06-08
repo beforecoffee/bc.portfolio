@@ -1,5 +1,5 @@
-### Author: https://github.com/adamdbradley
-### Source: https://github.com/stammy/focal-point
+# Author: https://github.com/adamdbradley
+# Source: https://github.com/stammy/focal-point
 
 
 

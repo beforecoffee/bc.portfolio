@@ -8,4 +8,5 @@
   Author: Tero Auralinna
   Source: https://auralinna.blog/post/2018/crop-and-resize-images-with-css
 
-##
+## lightbox/
+  Source: 

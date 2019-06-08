@@ -1,0 +1,13 @@
+#images directory
+images/
+
+#classHtml directory
+classHtml/
+
+#bootstrap directory
+bootstrap-3.3.6/
+bootstrap-4.3.1/
+
+#Adobe files
+*.BridgeLabelsAndRatings
+*.BridgeSort

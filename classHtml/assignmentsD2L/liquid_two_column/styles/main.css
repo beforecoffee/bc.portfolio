@@ -1,0 +1,26 @@
+header {
+	border: 2px solid black;	/* creates solid black border */
+	
+}
+
+aside {
+	border: 2px solid green;	/* creates solid green border */
+	position: absolute;			/* where the borwser displays and element on page */
+	float: right;				/* floats the aside to the right */
+	width: 200px;				/* sets width equal to 200px */
+	top: 40%;	
+	left: 50%;
+	
+}
+
+section {
+	border: 2px solid blue;		/* creates solid blue border */
+	margin-right: 15%; 			/* creates gap between section and aside */
+}
+
+footer {
+	clear: left;				/* prevents wrapping caused by floating element, clears everything to left */
+	clear: right;				/* ...same..., clears everything to right */
+								/* can also use "clear: both;" */
+	
+}

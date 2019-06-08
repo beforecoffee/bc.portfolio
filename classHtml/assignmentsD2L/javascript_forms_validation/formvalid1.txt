@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head><title>I'm Just Here So This Will Validate</title>
+<style>
+.redBorder {
+	background-color: red;
+}
+</style>
+</head>
+<body>
+<form id="myForm" name="myForm" action="#" method="POST">
+<div id="selectResult"></div>
+Name: <input type="text" id="textInput" name="textInput"><br>
+<select id="selectInput" name="selectInput">
+<option value="test1">Option 1</option>
+<option value="test2">Option 2</option>
+<option value="test3">Option 3</option>
+</select>
+
+<input type="submit" name="submit">
+</form>
+<script type="text/javascript">
+
+	var bodyElm = document.body;
+	bodyElm = addEventListener("load",loadFunction);
+
+function loadFunction() {
+	
+	var theForm = document.forms[0];
+	theForm.addEventListener("submit",function(evt) {		
+		var finalReturn = formHandler(evt);
+		if (finalReturn === false) {
+			if (!evt.preventDefault) {
+				evt.preventDefault = function() {
+   					window.event.returnValue = false;
+				};
+			} else {
+				evt.preventDefault();
+			}
+		}
+		return finalReturn;
+	});
+
+}  // end function loadFunction
+
+
+function formHandler(evt) {
+	console.log(evt);
+
+	var textIn = document.getElementById("textInput");
+
+	var strMatch = /Steve/;
+	if (!textIn.value.match(strMatch)) {
+		var myDiv = document.getElementById("selectResult");
+		myDiv.innerHTML = "You didn't fill in the form correctly";	
+		//inline style method, not preferred
+		//textIn.style.borderColor = "red";	
+		//better:
+		textIn.className += " redBorder";
+		return false;
+	}
+	
+	return true;
+
+} //end function formHandler
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head><title>I'm Just Here So This Will Validate</title>
+<style>
+.fontClass {
+	font-family: Arial, helvetica;
+}
+.borderClass {
+	border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<section onclick="return myFunction();">Click Here</section>
+<hr>
+<a id="UWSPLink" href="http://www.uwsp.edu">UWSP</a>
+<section class="contentSection">
+<h1 class="fontClass andanother" id="myHeading">A heading</h1>
+</section>
+<section id="lastSection" class="contentSection">
+Content Goes Here.
+</section>
+
+<script type="text/javascript">
+function myFunction() {
+	var heading = document.getElementById("myHeading");
+	var sections = document.getElementsByClassName("contentSection");
+		
+}
+</script>
+</body>
+</html>
+

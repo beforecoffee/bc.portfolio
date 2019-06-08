@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<title>Forms Part II</title>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<link type="text/css" rel="stylesheet" href="styles/forms_2.css">
+</head>
+
+<body>
+
+	<div class="info">
+		<fieldset>
+			<legend>Student Information</legend>
+			<label class="info" for="email">* E-mail: </label>
+			<input type="email" id="email" name="email" pattern="[example@me.com]" 
+			placeholder="example@me.com" required autofocus> 
+			<br>
+		
+			<label class="info" for="first_name">* First Name: </label>
+			<input type="text" id="first_name" name="first_name" pattern="[A-Za-z0-9-,. ] {1,}" required >  
+			<br>
+		
+			<label class="info" for="last_name">* Last Name: </label>
+			<input type="text" id="last_name" name="last_name" pattern="[A-Za-z0-9-,. ] {1,}" required> 
+			<br>
+			
+			<label class="info" for="student_id">  ID: </label>
+			<input type="text" id="student_id" name="student_id" pattern="[0-9]{8}" 
+			placeholder="(8 digit student ID number)" > 
+			<br>
+			
+			<label class="info" for="studentstatus">* Status: </label>
+			<select id="studentstatus" name="studentstatus" required>  
+				<option value=""> - </option>
+				<option value="freshmen"> Freshmen </option>
+				<option value="sophmore"> Sophmore </option>	
+				<option value="junior"> Junior </option>		
+				<option value="senior"> Senior </option>
+				<option value="super_senior"> Super Senior </option>
+				</select>
+				<br>
+				
+			<label class="info" for="student_understudy"> Study: </label>
+			<select id="student_understudy" name="student_understudy" > 
+				<option value=""> - </option>
+				<option value="undergraduate"> Undergraduate </option>
+				<option value="graduate"> Graduate </option>	
+				</select>
+				<br>
+			
+			<label class="info" for="major">  Major: </label>
+			<select id="major" name="major" > 
+				<option value=""> - </option>
+				<option value="undecided"> Undecided </option>
+				<option value="agriculture"> Agriculture </option>
+				<option value="agriculture"> Architecture and Planning </option>
+				<option value="arts"> Arts </option>
+				<option value="biosci"> Biological Sciences </option>
+				<option value="business"> Business </option>
+				<option value="communications"> Communications </option>
+				<option value="computer_information_sciences"> Computer and Information Sciences </option>
+				<option value="education"> Education </option>
+				<option value="engineering"> Engineering </option>
+				<option value="environmental_sciences"> Environmental Sciences </option>
+				<option value="health_care"> Health Care </option>
+				<option value="languages_literature"> Languages and Literature </option>
+				<option value="law"> Law </option>
+				<option value="math_stats"> Mathematics and Statistics </option>
+				<option value="mech_repair"> Mechanics and Repair </option>
+				<option value="military_sci"> Military Science </option>
+				<option value="phil_religion"> Philosophy and Religion </option>
+				<option value="physical_sci"> Physical Sciences </option>
+				<option value="protective_services"> Protective Services </option>
+				<option value="psy_counsel"> Psychology and Counseling </option>
+				<option value="rec_fitness"> Recreation and Fitness </option>
+				<option value="services"> Services </option>
+				<option value="skilled_trades_construction"> Skilled Trades and Construction </option>
+				<option value="social_sci_liberal_arts"> Social Sciences and Liberal Arts </option>
+				<option value="social_services"> Social Services </option>
+				<option value="transportation"> Transportation </option>
+				</select>
+				<br>
+				
+			<label class="info" for="minor">  Minor: </label>
+			<select id="minor" name="minor" > 
+				<option value=""> - </option>
+				<option value="undecided"> Undecided </option>
+				<option value="agriculture"> Agriculture </option>
+				<option value="agriculture"> Architecture and Planning </option>
+				<option value="arts"> Arts </option>
+				<option value="biosci"> Biological Sciences </option>
+				<option value="business"> Business </option>
+				<option value="communications"> Communications </option>
+				<option value="computer_information_sciences"> Computer and Information Sciences </option>
+				<option value="education"> Education </option>
+				<option value="engineering"> Engineering </option>
+				<option value="environmental_sciences"> Environmental Sciences </option>
+				<option value="health_care"> Health Care </option>
+				<option value="languages_literature"> Languages and Literature </option>
+				<option value="law"> Law </option>
+				<option value="math_stats"> Mathematics and Statistics </option>
+				<option value="mech_repair"> Mechanics and Repair </option>
+				<option value="military_sci"> Military Science </option>
+				<option value="phil_religion"> Philosophy and Religion </option>
+				<option value="physical_sci"> Physical Sciences </option>
+				<option value="protective_services"> Protective Services </option>
+				<option value="psy_counsel"> Psychology and Counseling </option>
+				<option value="rec_fitness"> Recreation and Fitness </option>
+				<option value="services"> Services </option>
+				<option value="skilled_trades_construction"> Skilled Trades and Construction </option>
+				<option value="social_sci_liberal_arts"> Social Sciences and Liberal Arts </option>
+				<option value="social_services"> Social Services </option>
+				<option value="transportation"> Transportation </option>
+				</select>
+
+				<h6><i>* = Required Fields</i></h6>
+		</fieldset>	
+	</div>		
+
+	<br><br>
+
+	<fieldset>
+	<legend>Favorite Class Type(s)</legend>
+		<div class="two">
+			<label><input type="checkbox" name="favorite_class" id="acct" value="acct"> Accounting</label>
+			<label><input type="checkbox" name="favorite_class" id="art" value="art"> Art</label>		
+			<label><input type="checkbox" name="favorite_class" id="artmng" value="artmng"> Arts Management</label>	
+		</div>
+
+		<div class="three">
+			<label><input type="checkbox" name="favorite_class" id="athletic_training" value="athletic_training" /> Athletic Training</label>
+			<label><input type="checkbox" name="favorite_class" id="biology" value="biology" /> Biology</label>
+			<label><input type="checkbox" name="favorite_class" id="bio_ed" value="bio_ed" /> Biology Ed</label>
+		</div>
+
+		<div class="four">
+			<label><input type="checkbox" name="favorite_class" id="business" value="business" /> Business</label>
+			<label><input type="checkbox" name="favorite_class" id="chem" value="chem" /> Chemistry</label>
+			<label><input type="checkbox" name="favorite_class" id="clin_lab" value="clin_lab" /> Clinical Lab</label>
+		</div>
+
+		<div class="five">
+			<label><input type="checkbox" name="favorite_class" id="com" value="com" /> Communications</label>
+			<label><input type="checkbox" name="favorite_class" id="cis" value="cis" /> CIS </label>
+			<label><input type="checkbox" name="favorite_class" id="cmnt" value="cmnt" /> CMNT </label>
+		</div>
+		
+		<div class="six">
+			<label><input type="checkbox" name="favorite_class" id="dance" value="dance" /> Dance </label>
+			<label><input type="checkbox" name="favorite_class" id="child_ed" value="child_ed" /> Early Child Ed </label>
+			<label><input type="checkbox" name="favorite_class" id="econ" value="econ" /> Economics </label>
+		</div>
+		
+		<div class="seven">
+			<label><input type="checkbox" name="favorite_class" id="ed" value="ed" /> Education </label>
+			<label><input type="checkbox" name="favorite_class" id="eng" value="eng" /> English </label>
+			<label><input type="checkbox" name="favorite_class" id="eng_ed" value="eng_ed" /> English Ed </label>
+		</div>
+		
+		<div class="eight">
+			<label><input type="checkbox" name="favorite_class" id="fam_cnsm" value="fam_cnsm"> Family & Cnsmr </label>
+			<label><input type="checkbox" name="favorite_class" id="food_nutr" value="food_nutr"> Food & Nutriction </label>		
+			<label><input type="checkbox" name="favorite_class" id="wrld_lng" value="wrld_lng"> World Language </label>	
+		</div>
+
+		<div class="nine">
+			<label><input type="checkbox" name="favorite_class" id="forest" value="forest" /> Forestry </label>
+			<label><input type="checkbox" name="favorite_class" id="geog" value="geog" /> Geography </label>
+			<label><input type="checkbox" name="favorite_class" id="geol" value="geol" /> Geology </label>
+		</div>
+
+		<div class="ten">
+			<label><input type="checkbox" name="favorite_class" id="health_ed" value="health_ed" /> Health Ed </label>
+			<label><input type="checkbox" name="favorite_class" id="him" value="him" /> Health Info Mgnt </label>
+			<label><input type="checkbox" name="favorite_class" id="hlth_well" value="hlth_well" /> Health & Wellness </label>
+		</div>
+
+		<div class="eleven">
+			<label><input type="checkbox" name="favorite_class" id="hlth_sci" value="hlth_sci" /> Health Science </label>
+			<label><input type="checkbox" name="favorite_class" id="history" value="history" /> History </label>
+			<label><input type="checkbox" name="favorite_class" id="hum_dev" value="hum_dev" /> Hurman Dev </label>
+		</div>
+		
+		<div class="twelve">
+			<label><input type="checkbox" name="favorite_class" id="int_stu" value="int_stu" /> Int Studies </label>
+			<label><input type="checkbox" name="favorite_class" id="math" value="math" /> Math </label>
+			<label><input type="checkbox" name="favorite_class" id="music" value="music" /> Music </label>
+		</div>
+		
+		<div class="thirteen">
+			<label><input type="checkbox" name="favorite_class" id="nat_res" value="nat_res" /> Nat Resources </label>
+			<label><input type="checkbox" name="favorite_class" id="nurse" value="nurse" /> Nursing </label>
+			<label><input type="checkbox" name="favorite_class" id="phil" value="phil" /> Philosophy </label>
+		</div>
+	</fieldset>
+	
+	<br><br>
+	
+	<fieldset>
+		<legend> Do you own any of the following? </legend>
+			<div class="fourteen">
+				<label><input type="checkbox" name="device" value="tablet" /> Tablet </label>
+				<label><input type="checkbox" name="device" value="smartphone" /> Smartphone </label>
+				<label><input type="checkbox" name="device" value="laptop" /> Laptop </label>
+			</div>
+	</fieldset>
+	
+	<br><br>
+	
+	<fieldset>
+		<legend> Submit </legend>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+	</fieldset>
+	
+</body>
+</html>

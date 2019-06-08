@@ -1,0 +1,97 @@
+			
+			header img.banner {
+				width: 100%;
+				position: relative;
+			}
+			
+		/*	header aside.banner_text {
+				width: 50%;
+				
+			}
+			
+			header aside.banner_text h1 {
+				text-align: center;
+				font-size: 400%;
+				font-style: "Arial Narrow", Arial, Helvetica, sans-serif;
+				color: rgb(0,0,0);
+				text-transform: none;
+				font-weight: bold;
+				
+				position: absolute;
+				top: 100px;
+				left: 55%;
+				width: 35%;
+				height: 10%;
+			}
+		*/				
+			body aside.title_bar {
+				text-align: center;
+				background-color: rgb(72,72,72);	
+			}
+
+			html {
+				background-color: rgb(0, 51, 0);
+			}
+			
+			body {
+				background-color: white;
+				padding: 15px;
+				width: 760px;
+				border: 5px solid black;
+
+				/* given */
+				margin-top: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+			}
+			
+			body h1 {
+				text-align: center;
+				color: rgb(133,161,16);
+				font-size: 150%;
+				font-weight: normal;
+				text-transform: uppercase;
+				padding: 5px 15px 2px 15px;
+						/*  Top		Right		Bottom		Left */
+				margin: 	0 		-15px 		20px 		-15px;
+			}
+			
+			body h2 {
+				font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+				border-top: 1px dashed black;
+				border-bottom: 1px dashed black;
+				background-color: white;
+				font-size: 175%;
+				color: green;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-top: 15px;
+				margin-bottom: 5px;
+				overflow: hidden;	
+			}
+
+			aside.float {
+				float: right;
+				width: 35%;
+				background-color: rgb(250,235,199); /* Change background color in aside.float section h2 below */
+				margin: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 20px;
+				padding-right: 20px;
+				border: 1px dashed black;
+				border-top: 20px solid orange;
+
+				/* given */
+				border-radius: 10px;
+				box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+			}
+			
+			aside.float section h2 {
+				border: none;
+				background-color: rgb(250,235,199); /* Change background color in aside.float above */
+			}
+			
+
+			

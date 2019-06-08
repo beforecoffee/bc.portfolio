@@ -1,0 +1,17 @@
+* { margin: .5em 1em; }
+
+	
+	ul.g {
+		list-style-type: circle; }
+	
+	ul.a {
+		list-style-type: square; }
+	
+	body { 
+		font-family: Helvetica Narrow, sans-serif;
+		font-size: 125%;
+			}
+		
+	header {
+		font-family: Zapf Chancery, cursive; }
+

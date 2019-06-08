@@ -1,0 +1,18 @@
+article,aside,figure,footer,header,nav,section
+{
+
+* { margin: .5em 1em; } 
+
+	body {
+		background-color: rgb(175,169,169);
+		padding: 0 20px 20px 20px;
+		margin: 0;
+		font-family:  Arial, helvetica, sans-serif;
+	}
+	
+	h1 {
+		text-align: center;
+		font-family: Arial, helvetica, sans-serif;
+		color: white;
+		
+	}

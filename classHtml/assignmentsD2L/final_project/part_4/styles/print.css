@@ -1,0 +1,30 @@
+
+	body {
+		height: 100%;
+		width: 100%;
+		color: rgb(0,0,0);
+	}
+	
+	nav {
+		display: none;
+	}
+
+	img {
+		display: none;
+	}
+	
+	.comment {
+		display: none;
+	}
+	
+	div {
+		
+	}
+	
+	div img.third_item_image {
+		display: none;
+	}
+
+	div img.fourth_item_image {
+		display: none;
+	}

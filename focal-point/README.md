@@ -1,3 +1,6 @@
+##Author: https://github.com/adamdbradley
+##Source: https://github.com/stammy/focal-point
+
 ## Focal Point: Pure HTML/CSS Adaptive Images Framework
 
 A small set of CSS classnames to help keep images cropped on the focal point for responsive designs. Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus as the image scales on responsive webpages. This puts [web authors in control of art direction for responsive and high-resolution images](http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/). Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript. Resize your browser down to as small as it can go when viewing the [demos](http://www.cdnconnect.com/demos/focal-point-full-house).

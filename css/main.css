@@ -1,0 +1,87 @@
+/* 
+	Sources:
+		https://css-tricks.com/un-bloat-css-by-using-multiple-classes/
+*/
+
+body {}
+
+
+/*
+.artist-statement-carousel {
+	margin: auto;
+	width: 100%;
+}
+
+img.img-artist-statement {
+	max-height: 80vh;
+	margin: auto;
+}
+*/
+
+.formatting-carousel {
+	margin: auto;
+	width: 100%;
+}
+
+img.img-formatting-carousel {
+	max-height: 80vh;
+	margin: auto;
+}
+
+
+@media screen and (max-width:767px) {
+	/*
+	.artist-statement-carousel {
+		margin: auto;
+		width: 100%;
+	}
+
+	img.img-artist-statement {
+		max-height: 80vh;
+		margin: auto;
+	}*/
+
+	.formatting-carousel {
+		margin: auto;
+		width: 100%;
+	}
+
+	img.img-formatting-carousel {
+		max-height: 80vh;
+		margin: auto;
+	}
+}
+
+@media (min-width:768px) {
+	/*
+	.artist-statement-carousel {
+		margin: auto;
+		width: 100%;
+	}
+
+	img.img-artist-statement {
+		max-height: 80vh;
+		margin: auto;
+	}*/
+
+	.formatting-carousel {
+		margin: auto;
+		width: 100%;
+	}
+
+	img.img-formatting-carousel {
+		max-height: 80vh;
+		margin: auto;
+	}
+}
+
+/*
+img.vertical-img-artist-statement {
+	margin: auto;
+	width: 25%;
+}
+
+img.horizontal-img-artist-statement {
+	margin: auto;
+	width: 44.5%;
+}*/

@@ -7,7 +7,7 @@ function FileFinder() {
         var numOfImgs = 0;
 
     //
-    Path = "./images/pics/allimages/"; //Folder where we will search for files
+    Path = "./images/allimages/"; //Folder where we will search for files
     foundFiles = aqFileSystem.FindFiles(Path, "*.jpg");
 
 

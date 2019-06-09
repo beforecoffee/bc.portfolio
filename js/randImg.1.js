@@ -5,38 +5,38 @@
 /*
 var imgLinks = [
     // format: ['imageSource','imageLinkURL'],
-      ['images/pics/ceramics/Ceramics_01.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_02.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_03.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_04.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_05.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_06.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_07.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_08.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_09.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_10.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_11.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_12.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_13.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_14.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_15.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_16.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_17.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_18.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_19.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_20.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_21.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_22.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_23.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_24.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_25.JPG','art_ceramics.html'],
-      ['images/pics/ceramics/Ceramics_26.JPG','art_ceramics.html']	// NOTE: no comma after last entry
+      ['images/ceramics/Ceramics_01.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_02.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_03.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_04.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_05.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_06.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_07.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_08.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_09.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_10.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_11.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_12.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_13.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_14.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_15.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_16.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_17.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_18.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_19.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_20.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_21.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_22.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_23.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_24.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_25.JPG','art_ceramics.html'],
+      ['images/ceramics/Ceramics_26.JPG','art_ceramics.html']	// NOTE: no comma after last entry
     ];
 */
 
 /*
 for(var i = 0; i < 63; i++) {
-    imgLinks[i] = 'images/pics/ceramics/Ceramics_' + i + '.JPG' 
+    imgLinks[i] = 'images/ceramics/Ceramics_' + i + '.JPG' 
 
 var imgLinks = [
         // format: ['imageSource','imageLinkURL'],
@@ -45,8 +45,8 @@ var imgLinks = [
     ];
 
     for(var i = 0; i < 63; i++) {
-        imgLinks['images/pics/ceramics/Ceramics_' + i + '.JPG' +', ' + 'art_ceramics.html'];
-        //img[i] = 'images/pics/ceramics/Ceramics_' + i + '.JPG' 
+        imgLinks['images/ceramics/Ceramics_' + i + '.JPG' +', ' + 'art_ceramics.html'];
+        //img[i] = 'images/ceramics/Ceramics_' + i + '.JPG' 
     }
 }
 */
@@ -74,7 +74,7 @@ function addImgToArray() {
 
 
     for(i = 0; i < 9; i++){
-        imageSource = 'images/pics/ceramics/Ceramics_0' + i + '.JPG' ;
+        imageSource = 'images/ceramics/Ceramics_0' + i + '.JPG' ;
         imageLinkURL = 'art_ceramics.html';
         //imgLinks[i].src = [imgFileName, imgHtmlLink];
         
@@ -87,7 +87,7 @@ function addImgToArray() {
 var imgLinks = [];
 
 for (var i = 1; i < 64; i++) {
-    imgLinks[i] = ['images/pics/ceramics/Ceramics_' + i + '.JPG', 'art_ceramics.html'];
+    imgLinks[i] = ['images/ceramics/Ceramics_' + i + '.JPG', 'art_ceramics.html'];
 }
 
 function SetImage(IDS, imgPtr) {
